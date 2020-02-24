@@ -69,7 +69,8 @@ import com.oracle.truffle.api.nodes.LoopNode;
 import com.oracle.truffle.api.nodes.Node;
 
 /**
- * Simple recursive-descend parser for the binary WebAssembly format.
+ * Full recursive-descend parser for the binary WebAssembly format.
+ * With nodes for each opcode
  */
 public class FullBinaryParser extends BinaryStreamParser {
 
@@ -90,7 +91,7 @@ public class FullBinaryParser extends BinaryStreamParser {
     // to track the current largest function index.
     private int moduleFunctionIndex;
 
-    BinaryParser(WasmLanguage language, WasmModule module, byte[] data) {
+    FullBinaryParser(WasmLanguage language, WasmModule module, byte[] data) {
         super(data);
         this.language = language;
         this.module = module;
