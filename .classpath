@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/org.graalvm.wasm.benchcases.bench/src"/>
+	<classpathentry kind="src" path="src/org.graalvm.wasm.benchmark/src"/>
+	<classpathentry kind="src" path="src/org.graalvm.wasm.launcher/src"/>
+	<classpathentry kind="src" path="src/org.graalvm.wasm.test/src"/>
+	<classpathentry kind="src" path="src/org.graalvm.wasm.testcases.test/src"/>
+	<classpathentry kind="src" path="src/org.graalvm.wasm.utils/src"/>
+	<classpathentry kind="src" path="src/org.graalvm.wasm/src"/>
+	<classpathentry kind="lib" path="/home/.m2/repository/org/graalvm/truffle/truffle-api/20.0.0/truffle-api-20.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
